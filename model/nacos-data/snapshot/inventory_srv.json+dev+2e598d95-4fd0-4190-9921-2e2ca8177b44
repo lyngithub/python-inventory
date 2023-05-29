@@ -1,0 +1,24 @@
+{
+    "name": "inventory_srv",
+    "tags": ["inventory_srv", "inventory_info"],
+    "redis": {
+        "host": "110.40.153.208",
+        "port": 6635,
+        "db": 0
+    },
+    "mysql": {
+        "db": "mxshop_inventory_srv",
+        "host": "110.40.153.208",
+        "port": 3632,
+        "user": "root",
+        "password": "411220aas."
+    },
+    "consul": {
+        "host": "110.40.153.208",
+        "port": 8500
+    },
+    "rocketmq":{
+        "host": "110.40.153.208",
+        "port": 8080
+    }
+}
